@@ -216,4 +216,5 @@ login = LoginPage()
 user = UserPage()
 op = Operations()
 loger = Loger()
-start_page()
+if __name__ == "__main__":
+    start_page()
